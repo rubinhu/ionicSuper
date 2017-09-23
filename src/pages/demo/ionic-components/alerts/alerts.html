@@ -1,0 +1,43 @@
+<!--
+  Generated template for the AlertsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Alerts</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    Basic Alerts are typically used to
+    notify the user about new information (a change in the app, a new feature, etc), an urgent situation that requires acknowledgement,
+    or as a confirmation to the user that an action was successful or not.
+    <button ion-button block color="dark" (click)="doAlert()">Show Basic Alert</button> 
+
+     Checkbox Alerts are a type
+    of Confirmation Alert, but use the Checkbox component to offer several choices. They offer the user a set of options to
+    choose from.
+    <button ion-button block color="danger" (click)="doCheckbox()">Show Checkbox Alert</button>
+
+     Confirmation Alerts are used
+    when it is required that the user explicitly confirms a particular choice before progressing forward in the app. A common
+    example of the Confirmation Alert is checking to make sure a user wants to delete or remove a contact from their address
+    book.
+    <button ion-button color="primary" block (click)="doConfirm()">Show Confirm Alert</button>
+
+     Prompts offer a way to input
+    data or information. Often times Prompts will be used to ask the user for a password before moving forward in an application’s
+    flow.
+    <button ion-button color="secondary" block (click)="doPrompt()">Show Prompt Alert</button>
+
+     Radio Alerts are a type of Confirmation Alert,
+    but use the Radio component to offer several choices. A set of options is provided to the user, but only one option can
+    be chosen.
+    <button ion-button block light (click)="doRadio()">Show Radio Alert</button>
+
+</ion-content>
