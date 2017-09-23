@@ -21,13 +21,14 @@ dist/
 node_modules/
 tmp/
 temp/
-hooks/
+# hooks/
 platforms/
 plugins/
 plugins/android.json
 plugins/ios.json
 www/
 $RECYCLE.BIN/
+.sourcemaps
 
 .DS_Store
 Thumbs.db
